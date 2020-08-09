@@ -1,0 +1,7 @@
+
+Ne marchent pas :
+php://filters
+javascript:
+Null byte poisonning (url%00)
+
+Get(src) stocke dans l'attribut data d'un tag object
