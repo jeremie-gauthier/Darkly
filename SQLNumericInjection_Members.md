@@ -29,11 +29,11 @@ Using crackstation, we crack the md5 (in the surname field) to get : FortyTwo, l
 
 ## Why is it dangerous ?
 
-See 10-Gallery-SQLNumericInjection
+See [SQL Numeric Injection - Gallery](https://github.com/jeremie-gauthier/Darkly/blob/master/SQLNumericInjection_Gallery.md#why-is-it-dangerous-)
 
 ## Possible fixes
 
-See 10-Gallery-SQLNumericInjection
+See [SQL Numeric Injection - Gallery](https://github.com/jeremie-gauthier/Darkly/blob/master/SQLNumericInjection_Gallery.md#possible-fixes)
 
 ## Resources
 
