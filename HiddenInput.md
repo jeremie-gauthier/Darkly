@@ -1,4 +1,4 @@
-# Recover Password
+# Hidden Input
 
 ## Flag
 
@@ -19,6 +19,11 @@ On page, inspect the elements and remove the following:
 ```xml
 <input type="hidden" name="mail" value="webmaster@borntosec.com" maxlength="15">
 ```
+
+## Why is it dangerous ?
+
+It's possible to see the webmaster mail in clear, making it vulnerable for spam bots.
+It's also possible to spam a given mail using your website as origin, which can cause your site reputation/trustworthiness to drop.
 
 ## Possible fixes
 

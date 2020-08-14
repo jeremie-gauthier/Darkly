@@ -1,4 +1,4 @@
-# Admin Cookie
+# Cookie Forgery
 
 ## Flag
 
@@ -21,6 +21,10 @@ Everywhere on the website.
 - Hash the string `true` with the `md5` method.
 - Replace the value of the cookie named `I_am_admin` by the new hash.
 - Reload the page.
+
+## Why is it dangerous ?
+
+Since `false` is very easy to crack by bruteforce or dictionary, any user can easily guess how the cookie works and grant themselves admin access.
 
 ## Possible fixes
 

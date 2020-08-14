@@ -1,7 +1,3 @@
-http://192.168.56.3/index.php?page=redirect&site=EVIL_URL
-
-https://www.vaadata.com/blog/fr/comprendre-les-vulnerabilites-web-en-5-min-episode-10-redirections-et-renvois-non-valides/
-
 # Open Redirect
 
 ## Flag
@@ -19,6 +15,11 @@ http://192.168.x.y/index.php?page=redirect&site=EVIL_URL
 ## Steps To Reproduce
 
 - Type the URL in your address bar.
+
+## Why is it dangerous ?
+
+Malicious people can hide inappropriate content under your url, making your website not trustworthy.
+They can redirect people from your site to another site with the exact same visual, except that it's a phishing website made to steal your informations.
 
 ## Possible fixes
 

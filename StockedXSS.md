@@ -21,10 +21,14 @@ Put the following:
 ```
 Name:     anything
 
-Message:  \<strong\>You've been hacked\</strong\>
+Message:  <script>a<script>
 ```
 
 Then valid the form with the `Sign Guestbook` button
+
+## Why is it dangerous ?
+
+It allows attackers to store arbitrary code in your database.
 
 ## Possible fixes
 
