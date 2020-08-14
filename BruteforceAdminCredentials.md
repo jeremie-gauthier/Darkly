@@ -33,5 +33,5 @@ Any attacker can impersonate an admin user.
 
 ## Resources
 
-- [1000-most-common-passwords.txt]()
+- [1000-most-common-passwords.txt](https://github.com/jeremie-gauthier/Darkly/blob/master/1000-most-common-passwords.txt)
 - https://redteamtutorials.com/2018/10/25/hydra-brute-force-https/

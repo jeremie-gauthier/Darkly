@@ -31,4 +31,4 @@ Any attacker can impersonate any other user.
 
 ## Resources
 
-- [1000-most-common-passwords.txt]()
+- [1000-most-common-passwords.txt](https://github.com/jeremie-gauthier/Darkly/blob/master/1000-most-common-passwords.txt)
