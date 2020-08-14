@@ -8,30 +8,30 @@ jergauth - https://github.com/jeremie-gauthier/
 
 See this project in the jeremie's repo too : https://github.com/0auBSQ/Darkly
 
-### [Cookie Forgery]()
+### [Cookie Forgery](https://github.com/jeremie-gauthier/Darkly/blob/master/CookieForgery.md)
 
-### [Open Redirect]()
+### [Open Redirect](https://github.com/jeremie-gauthier/Darkly/blob/master/OpenRedirect.md)
 
-### [Hidden Input]()
+### [Hidden Input](https://github.com/jeremie-gauthier/Darkly/blob/master/HiddenInput.md)
 
-### [Stored XSS]()
+### [Stored XSS](https://github.com/jeremie-gauthier/Darkly/blob/master/StockedXSS.md)
 
-### [Input Data Falsification]()
+### [Input Data Falsification](https://github.com/jeremie-gauthier/Darkly/blob/master/InputDataFalsification.md)
 
-### [MIME Type Poisoning]()
+### [MIME Type Poisoning](https://github.com/jeremie-gauthier/Darkly/blob/master/MIMETypePoisoning.md)
 
-### [Admin : BruteForce]()
+### [Admin : BruteForce](https://github.com/jeremie-gauthier/Darkly/blob/master/BruteforceAdminCredentials.md)
 
-### [Members : BruteForce]()
+### [Members : BruteForce](https://github.com/jeremie-gauthier/Darkly/blob/master/BruteforceMembersCredentials.md)
 
-### [Remote File Inclusion]()
+### [Remote File Inclusion](https://github.com/jeremie-gauthier/Darkly/blob/master/RemoteFileInclusion.md)
 
-### [Members : SQL Numeric Injection]()
+### [Members : SQL Numeric Injection](https://github.com/jeremie-gauthier/Darkly/blob/master/SQLNumericInjection_Members.md)
 
-### [Gallery : SQL Numeric Injection]()
+### [Gallery : SQL Numeric Injection](https://github.com/jeremie-gauthier/Darkly/blob/master/SQLNumericInjection_Gallery.md)
 
-### [Folder Crawling]()
+### [Folder Crawling](https://github.com/jeremie-gauthier/Darkly/blob/master/FolderCrawling.md)
 
-### [User Agent]()
+### [User Agent](https://github.com/jeremie-gauthier/Darkly/blob/master/UserAgent.md)
 
-### [Path Traversal]()
+### [Path Traversal](https://github.com/jeremie-gauthier/Darkly/blob/master/PathTraversal.md)
