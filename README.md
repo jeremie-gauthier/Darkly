@@ -6,7 +6,7 @@ Starring :
 rmarracc - https://github.com/0auBSQ
 jergauth - https://github.com/jeremie-gauthier/
 
-See this project in the jeremie's repo too : https://github.com/0auBSQ/Darkly
+See this project in the raphael's repo too : https://github.com/0auBSQ/Darkly
 
 ### [Cookie Forgery](https://github.com/jeremie-gauthier/Darkly/blob/master/CookieForgery.md)
 
